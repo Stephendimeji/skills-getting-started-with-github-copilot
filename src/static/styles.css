@@ -71,9 +71,9 @@ section h3 {
 
 .activity-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 20px 38px rgba(26,35,126,0.12),
-              0 12px 24px rgba(2,136,209,0.08),
-              0 6px 12px rgba(124,58,237,0.06);
+  box-shadow: 0 20px 38px rgba(76, 175, 80, 0.12),
+              0 12px 24px rgba(56, 142, 60, 0.08),
+              0 6px 12px rgba(27, 94, 32, 0.06);
 }
 
 .activity-card h4 {
