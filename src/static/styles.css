@@ -60,9 +60,16 @@ section h3 {
 .activity-card {
   margin-bottom: 15px;
   padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+  border: 1px solid #d7e3ff;
+  border-radius: 8px;
   background-color: #f9f9f9;
+  box-shadow: 0 4px 12px rgba(26, 35, 126, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.activity-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 22px rgba(26, 35, 126, 0.2);
 }
 
 .activity-card h4 {
