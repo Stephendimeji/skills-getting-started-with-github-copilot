@@ -1,0 +1,9 @@
+git remote add origin <github link>
+git add
+git commit -m "message"
+git push origin -u <main or branch name>
+git status
+git checkout -b <branch name>
+git branch
+git pull origin main
+
